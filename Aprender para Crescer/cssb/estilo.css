@@ -1,30 +1,33 @@
-.barra{
+.barra {
 	background-color: black;
 	
 }
 
-.dropdown-item{
+.dropdown-item {
 	color: blue;
 	
 }
 
-.nav-link{
+.nav-link {
 	color: white;
 	
 }
-.rent{
+/*  INICIO  ESTILIZAÇÃO  INDEX  */
+.rent {
 	background: black;
 	border: 1px solid black;
 	margin-bottom: 2.3px;
 }
-.textr{
+
+.textr {
 	color: white;
 	position: relative;
 	text-align: center;
 	font-size: 24px;
 	
 }
-#textr{
+
+#textr {
 	color: white;
 	position: relative;
 	text-align: center;
@@ -32,12 +35,13 @@
 	margin-left: 30px;
 	margin-top: 18px;
 }
-#rent{
+
+#rent {
 	background: black;
 	border: 1px solid black;
 }
 
-.box1{
+.box1 {
 	width: 70vh;
 	height: 80vh;
 	border: 3px solid black;
@@ -49,23 +53,24 @@
 	right: 50%;
 	margin-top: 80px;
 }
-.texto1box1{
+
+.texto1box1 {
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 	transform: translate(0%, 30%);
 	color: black;
 }
-.texto2box1{
-	text-align: center;
-}
-a{
+
+a {
 	text-decoration: none;
 	color: white;
 }
-a:hover{
+
+a:hover {
 	color: blue;
 }
-.rent{
+
+.rent {
 	width: 100%;
 	height: 80px;
 	margin-top: 80px;
@@ -73,13 +78,15 @@ a:hover{
 	border: 1px solid black;
 	margin-bottom: 2.3px;
 }
-.textr{
+
+.textr {
 	color: white;
 	position: relative;		
 	text-align: center;
 	font-size: 24px;
 }
-#textr{
+
+#textr {
 	color: white;
 	position: relative;
 	text-align: center;
@@ -87,24 +94,32 @@ a:hover{
 	margin-left: 30px;
 	margin-top: 18px;
 }
-#rent{
+
+#rent {
 	background: black;
 	border: 1px solid black;
+	
 }
-.posi{
+
+.posi {
 	display: flex;
 	justify-content: center;
 	margin-top: 15px;
-	
+
 }
-#posi{
+
+#posi {
 	margin-right: 40px;
+
 }
-#rent{
+
+#rent {
 	width: 100%;
 	height: 80px;
+
 }
-.boxnave{
+
+.boxnave {
 	width: 100%;
 	height: 100px;
 	background: black;
@@ -112,8 +127,9 @@ a:hover{
 	top: 0px;
 	margin-bottom: 10px;
 	z-index: 1;
-	
+
 }
+
 #boxnave{
 	width: 100%;
 	height: 1.4px;
@@ -149,12 +165,77 @@ a:hover{
 	text-align: left;
 	display: none;
 }
+
 .dplin{
 	color: blue;
 }
+
 .dplin:hover{
 	background: lightgray;
 	color: black;
 	padding-right: 55px;
 	display: block;
 }
+
+.imgbox{
+	width: 100%;
+	height: 50.3%;
+	object-fit: cover;
+	position: absolute;
+	margin-top: 57%;
+	border-radius: 0px 0px 8px 8px;
+}
+
+.imgbox2{
+	width: 40%;
+	height: 40%;
+	object-fit: cover;
+	z-index: 0;
+	margin-top: 58%;
+	margin-left: 30%;
+	position: absolute;
+
+}
+
+.imgboxp1{
+	width: 100%;
+	height: 13%;
+	object-fit: cover;
+	position: absolute;
+	margin-top: 99.5%;
+	border-radius: 0px 0px 8px 8px;
+	z-index: 1;
+
+}
+
+/*  FIM  ESTILIZAÇÃO  INDEX  */
+
+/*  INICIO  ESTILIZAÇÃO  2°PAG  */
+.linp2{
+	text-decoration: none;
+	background: black;
+	position: relative;
+}
+
+.container{
+	position: fixed;
+	width: 100%;
+	height: 8%;
+	background: black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+.textnavpg2{
+	position: absolute;
+	margin-left: 100px;
+
+}
+
+.imgnavpg2{
+	position: fixed;
+
+}
+/*  FIM  ESTILIZAÇÃO  2°PAG  */
