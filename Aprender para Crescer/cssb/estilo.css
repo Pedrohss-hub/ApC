@@ -1,3 +1,16 @@
+
+body {
+	background-image: url(../imagens/folhascaindo3.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.divisoria {
+	width: 100%;
+	height: 2px;
+	background-color: white;
+
+}
 .barra {
 	background-color: black;
 	
@@ -13,10 +26,17 @@
 	
 }
 /*  INICIO  ESTILIZAÇÃO  INDEX  */
+@font-face {
+	font-family: "algo";
+	src: url('../fonts/Rotten\ Banquet.otf') format('opentype');
+
+
+}
+
 .rent {
 	background: black;
-	border: 1px solid black;
-	margin-bottom: 2.3px;
+	border: 1px solid white;
+
 }
 
 .textr {
@@ -51,13 +71,14 @@
 	transform: translate(-50%, 0%);
 	left: 50%;
 	right: 50%;
-	margin-top: 80px;
+	margin-top: 50px;
+	margin-bottom: 70px;
 }
 
 .texto1box1 {
+	font-family: "algo";
 	text-align: center;
 	font-size: 25px;
-	transform: translate(0%, 30%);
 	color: black;
 }
 
@@ -73,7 +94,6 @@ a:hover {
 .rent {
 	width: 100%;
 	height: 80px;
-	margin-top: 80px;
 	background: black;
 	border: 1px solid black;
 	margin-bottom: 2.3px;
@@ -187,24 +207,28 @@ a:hover {
 }
 
 .imgbox2{
-	width: 40%;
-	height: 40%;
+	margin-top: 52%;
+	margin-left: 13%;
+	width: 75%;
 	object-fit: cover;
 	z-index: 0;
-	margin-top: 58%;
-	margin-left: 30%;
 	position: absolute;
 
 }
 
-.imgboxp1{
-	width: 100%;
-	height: 13%;
-	object-fit: cover;
+.imgboxd {
+	margin-top: 57%;
+	margin-left: 24%;
 	position: absolute;
-	margin-top: 99.5%;
-	border-radius: 0px 0px 8px 8px;
-	z-index: 1;
+	object-fit: cover;
+	width: 55%;
+	transition: 1000s;
+
+}
+
+.imgboxd:hover{
+	transition: 1000s;
+	display: none;
 
 }
 
@@ -214,13 +238,13 @@ a:hover {
 .linp2{
 	text-decoration: none;
 	background: black;
-	position: relative;
+
 }
 
-.container{
-	position: fixed;
+.container2{
+	position: sticky;
 	width: 100%;
-	height: 8%;
+	height: 80px;
 	background: black;
 	display: flex;
 	flex-direction: row;
@@ -235,7 +259,71 @@ a:hover {
 }
 
 .imgnavpg2{
-	position: fixed;
+	object-fit: cover;
+	width: 90px;
+	position: absolute;
+	padding: 5px;
+
+}
+
+.voltar{
+	text-decoration: none;
+	color: white;
+	margin-left: 300px;
+
+}
+
+.voltar:hover{
+	color: white;
+
+}
+
+.bgg{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url(../imagens/pho3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid none;
+	background-position: center center;
+
+}
+
+.estb{
+	color: black;
+	background-color: white;
+	width: auto;
+	height: auto;
+	display: none;
+
+}
+
+.coming {
+	color: rgba(255, 255, 255, 0.411);
+	background-color: rgba(37, 37, 37, 0.699);
+	
+
+}
+
+#po1 {
+	transform: translate(1350%, 650%);
+}
+
+#po2 {
+	transform: translate(1500%, 550%);
+}
+
+#po3 {
+	transform: translate(1160%, 0%);
+}
+.arvorepg2 {
+	margin-left: 450px;
+	margin-top: 40px;
+	position: absolute;
+	object-fit: cover;
+	width: 50%;
+	
 
 }
 /*  FIM  ESTILIZAÇÃO  2°PAG  */
